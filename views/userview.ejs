@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="userviewstyle.css" type="text/css">
+</head>
+<body >
+    <nav style="background-color:rgba(66, 66, 145, 0.589); margin-bottom: 10px;">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">User Page</a>
+          
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            
+            <!-- <li><a href="#">Logout</a></li> -->
+             <li class="create">
+        <a href="#" class=" modal-trigger" data-target="modal-create">Create</a>
+      </li>
+      <li class="logout"><a href="/signout"class="logout waves-button-input">Logout</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <div class="username">
+        <div class="first"></div><div class="second">
+          <% const data1=val3.data();%>
+         
+          <ul><li><h5>NAME :   </h5><h6><%=data1.username%></h6></li>
+           <li><h5>EMAIL ID :   </h5><h6><%=data1.email%></h6></li>
+           
+         </ul>
+        </div>
+      </div>
+
+
+      <div class="heading"> <h4>Alerts</h4> </div>
+     
+
+
+
+    
+      <ul>
+        
+        
+          <div class="heading"> <h4>Water usage is over!! Please reduce use Or else govt would take action</h4> </div>
+        
+          <div class="heading"> <h4>Be with governmment to help us saving water</h4> </div>
+ 
+       
+          
+    </ul>
+     
+
+<!-- model for new job -->
+     
+   
+       
+   
+
+       <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body >
+</html>
